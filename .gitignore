@@ -1,0 +1,42 @@
+# Ignore build output
+**/bin/
+**/obj/
+
+# Ignore Rider IDE files
+.idea/
+
+# Ignore user-specific settings
+*.suo
+*.user
+*.userosscache
+*.sln.ide
+
+# Ignore compiled libraries
+*.dll
+*.exe
+*.pdb
+
+# Ignore cache files
+*.vspscc
+*.vssscc
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+project.lock.json
+
+# Ignore debugging files
+.vscode/
+.vs/
+
+# Ignore dependency manager files
+node_modules/
+.env
